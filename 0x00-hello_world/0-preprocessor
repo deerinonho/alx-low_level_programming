@@ -1,11 +1,2 @@
 #!/bin/bash
-
-# Set the C file name
-CFILE="to_preprocessor.c"
-
-# Run the C file through the preprocessor and save the output to a file
-gcc -E $CFILE -o c.i
-
-# Output a success message
-echo "Preprocessing complete. Output saved to c.i."
-
+gcc -E to_preprocessor.c -o c.i
