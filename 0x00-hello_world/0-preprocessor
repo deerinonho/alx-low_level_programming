@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E to_preprocessor.c -o c.i
+gcc -E $CFILE > c
